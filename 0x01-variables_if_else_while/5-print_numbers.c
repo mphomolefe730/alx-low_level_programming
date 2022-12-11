@@ -14,7 +14,7 @@ int main(void)
 	/*function*/
 	while (number < 10)
 	{
-		printf("%d", number);
+		printf("%d\n", number);
 		number++;
 	}
 	return (0);
