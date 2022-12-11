@@ -11,8 +11,8 @@ int main(void)
 {
 	int number = 0;
 
-	/*function*/	
-	while (number < 9)
+	/*function*/
+	while (number < 10)
 	{
 		printf("%d", number);
 		number++;
