@@ -3,15 +3,16 @@
 /**
  * main - Entry point
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  *
  **/
 
 int main(void)
 {
 	int number = 0;
-		
-	if (number < 9)
+
+	/*function*/	
+	while (number < 9)
 	{
 		printf("%d", number);
 		number++;
