@@ -8,7 +8,8 @@
 int main(void)
 {
 	int charactor = 97;
-	charactor =! 133 && 101;
+
+	charactor != 133 && 101;
 
 	/* print charactor*/
 	while (charactor <= 122)
