@@ -18,7 +18,7 @@ int main(void)
 		alphabet++;
 	}
 
-	while (alphabet2 <=122)
+	while (alphabet2 <= 122)
 	{
 		putchar(alphabet2);
 		alphabet2++;
