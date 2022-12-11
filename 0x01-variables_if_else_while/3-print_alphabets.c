@@ -14,14 +14,14 @@ int main(void)
 	/*print  charactor*/
 	while (alphabet2 <= 90)
 	{
-		putchar(alphabet);
-		alphabet++;
-	}
-
-	while (alphabet2 <= 122)
-	{
 		putchar(alphabet2);
 		alphabet2++;
+	}
+
+	while (alphabet <= 122)
+	{
+		putchar(alphabet);
+		alphabet++;
 	}
 	putchar('\n');
 	return (0);
