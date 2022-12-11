@@ -12,15 +12,10 @@ int main(void)
 	/* print charactor*/
 	while (charactor <= 122)
 	{
-		 putchar (charactor);
-		 if (charactor = 133)
-		 {
-
-		 }
-		 else
-		 {
-		 charactor++;
-		 }
+		if ((charactor != 133 && charactor != 101) && charactor <= 122)
+		putchar (charactor);
+		charactor++;
 	}
+	putchar('\n');
 	return (0);
 }
