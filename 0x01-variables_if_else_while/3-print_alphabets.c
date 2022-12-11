@@ -12,10 +12,16 @@ int main(void)
 	int alphabet = 97;
 	int alphabet2 = 65;
 	/*print  charactor*/
-	while (alphabet2 <= 90 && alphabet <= 122)
+	while (alphabet2 <= 90)
 	{
 		putchar(alphabet);
 		alphabet++;
+	}
+
+	while (alphabet2 <=122)
+	{
+		putchar(alphabet2);
+		alphabet2++;
 	}
 	putchar('\n');
 	return (0);
