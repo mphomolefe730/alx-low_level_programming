@@ -8,12 +8,12 @@
 int main(void)
 {
 	int charactor = 97;
+	charactor =! 133 && 101;
 
 	/* print charactor*/
 	while (charactor <= 122)
 	{
 		 putchar (charactor);
-		 charactor =! 133 & 101;
 		 charactor++;
 	}
 	return (0);
