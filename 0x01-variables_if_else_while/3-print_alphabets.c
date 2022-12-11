@@ -12,7 +12,7 @@ int main(void)
 	int alphabet = 97;
 	int alphabet2 = 65;
 	/*print  charactor*/
-	while (alphabet2 <= 90, alphabet <= 122)
+	while (alphabet2 <= 90 | alphabet <= 122)
 	{
 		putchar(alphabet);
 		alphabet++;
