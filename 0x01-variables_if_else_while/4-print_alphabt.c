@@ -13,8 +13,14 @@ int main(void)
 	while (charactor <= 122)
 	{
 		 putchar (charactor);
-		 charactor != 133 && 101;
+		 if (charactor = 133)
+		 {
+
+		 }
+		 else
+		 {
 		 charactor++;
+		 }
 	}
 	return (0);
 }
