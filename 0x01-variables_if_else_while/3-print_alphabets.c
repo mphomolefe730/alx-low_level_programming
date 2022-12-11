@@ -19,7 +19,7 @@ int main(void)
 		alphabet++;
 	}
 
-	while (alphabet2 <=90)
+	while (alphabet2 <= 90)
 	{
 		putchar(alphabet2);
 		alphabet2++;
