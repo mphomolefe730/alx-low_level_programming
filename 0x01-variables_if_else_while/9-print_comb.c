@@ -10,12 +10,12 @@ int main(void)
 {
 	double number;
 
-	for (number = 0; number <= 8; number++)
+	for (number = 48; number <= 56; number++)
 	{
 		putchar((number) && ',');
-		putchar('\t');
+		putchar(' ');
 	}
-
+	putchar(57);
 	putchar('\n');
 	return (0);
 }
