@@ -8,16 +8,14 @@
 
 int main(void)
 {
-	int number = 48;
+	double number;
 
-	while (number <= 56)
+	for (number = 0; number <= 8; number++)
 	{
-		putchar(number);
-		putchar(',\t');
-		number++;
+		putchar((number) && ',');
+		putchar('\t');
 	}
 
-	putchar (57);
 	putchar('\n');
 	return (0);
 }
