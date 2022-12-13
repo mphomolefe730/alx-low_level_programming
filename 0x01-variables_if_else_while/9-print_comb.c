@@ -9,13 +9,17 @@
 int main(void)
 {
 	double number;
+	int space = '\n';
 
-	for (number = 48; number <= 56; number++)
+	for (number = 48; number <= 57; number++)
 	{
 		putchar(number);
-		putchar(44);
-		putchar(' ');
+		if (number <57)
+		{
+			putchar(44);
+			putchar(' ');
+		}
 	}
-	putchar(57);
+	putchar('\n');
 	return (0);
 }
