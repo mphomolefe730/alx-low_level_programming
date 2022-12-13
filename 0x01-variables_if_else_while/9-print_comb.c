@@ -13,9 +13,9 @@ int main(void)
 	for (number = 48; number <= 56; number++)
 	{
 		putchar(number);
-		putchar(44 && ' ');
+		putchar(44);
+		putchar(' ');
 	}
 	putchar(57);
-	putchar('\n');
 	return (0);
 }

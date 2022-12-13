@@ -10,9 +10,10 @@ int main(void)
 	int charactor = 97;
 
 	/* print charactor*/
-	while (charactor <= 122)
+	while (icharactor <= 122)
 	{
-		if ((charactor != 133 && charactor != 101) && charactor <= 122)
+		charactor != 133;
+		charactor != 101;
 		putchar (charactor);
 		charactor++;
 	}
