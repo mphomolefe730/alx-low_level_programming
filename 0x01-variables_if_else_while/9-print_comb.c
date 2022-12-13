@@ -9,7 +9,6 @@
 int main(void)
 {
 	double number;
-	int space = '\n';
 
 	for (number = 48; number <= 57; number++)
 	{
