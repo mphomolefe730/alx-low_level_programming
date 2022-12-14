@@ -12,15 +12,14 @@ void print_alphabet_x10(void)
 	int alphabet = 97;
 	double n = 0;
 
-	while (n <= 10)
+	while (n < 10)
 	{
-	_putchar(alphabet);
-
 		if (alphabet <= 122)
 		{
 			_putchar(alphabet);
 			alphabet++;
 		}
+	_putchar(alphabet);
 	n++;
 	}
 }
