@@ -10,11 +10,11 @@
 
 int _islower(int c)
 {
-	if (c <= 'z')
+	if (c <= (char)'z')
 	{
 		return (1);
 	}
-	else if (c >= 'a')
+	else if (c >= (char)'a')
 	{
 		return (1);
 	}
