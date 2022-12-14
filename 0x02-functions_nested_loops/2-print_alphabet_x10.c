@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  **/
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int alphabet = 97;
 
@@ -18,6 +18,7 @@ int main(void)
 			_putchar(alphabet);
 			alphabet++;
 		}
+
 	_putchar(alphabet);
 	alphabet <= 122;
 	alphabet++;

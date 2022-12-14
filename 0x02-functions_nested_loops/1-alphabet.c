@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ *  main -
  *
- * Return: Always 0 (Success)
+ *  return: Always 0 (Success)
  **/
 
-int main(void)
+viod print_alphabet(void)
 {
-	int alphabet = 97;
+	int charactor = 97;
 
-	for(alphabet; alphabet <= 122; alphabet++)
+	for (charactor; charactor <=122; charactor++)
 	{
-		putchar(alphabet);
+		_putchar(charactor);
 	}
-
-	putchar('\n');
+	_putchar('\n');
 	return (0);
+
 }
