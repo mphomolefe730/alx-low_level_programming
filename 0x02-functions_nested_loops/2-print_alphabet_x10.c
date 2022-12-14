@@ -9,16 +9,18 @@
 
 void print_alphabet_x10(void)
 {
-	int alphabet = 97;
 	int n = 48;
 
 	while (n < 59)
 	{
+		alphabet = 97;
+
 		while (alphabet <= 122)
 		{
 			_putchar(alphabet);
 			alphabet++;
 		}
+	_putchar('\n');
 	n++;
 	}
 }
