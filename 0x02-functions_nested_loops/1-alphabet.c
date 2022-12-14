@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- *  main -
+ *  main -Write a function that prints the alphabet,
+ *  in lowercase, followed by a new line.
  *
  *  return: Always 0 (Success)
  **/
 
-viod print_alphabet(void)
+void print_alphabet(void)
 {
 	int charactor = 97;
 
