@@ -11,15 +11,16 @@ int main(void)
 {
 	int alphabet = 97;
 
-	for (alphabet; alphabet <= 122; alphabet++)
+	while (alphabet <= 122)
 	{
 		if (alphabet <= 122)
 		{
 			_putchar(alphabet);
-			alphabet <= 122;
 			alphabet++;
 		}
 	_putchar(alphabet);
+	alphabet <= 122;
+	alphabet++;
 	}
 	return (0);
 }
