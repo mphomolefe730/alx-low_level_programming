@@ -10,9 +10,9 @@
 void print_alphabet_x10(void)
 {
 	int alphabet = 97;
-	char n = 0;
+	int n = 48;
 
-	while (n < 10)
+	while (n < 59)
 	{
 		while (alphabet <= 122)
 		{
