@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 {
 	int n = 48, alphabet;
 
-	while (n < 59)
+	while (n < 58)
 	{
 		alphabet = 97;
 
