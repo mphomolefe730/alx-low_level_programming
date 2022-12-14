@@ -14,6 +14,8 @@ void print_alphabet_x10(void)
 
 	while (n <= 10)
 	{
+	_putchar(alphabet);
+
 		if (alphabet <= 122)
 		{
 			_putchar(alphabet);
