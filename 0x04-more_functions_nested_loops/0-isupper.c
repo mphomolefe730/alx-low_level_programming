@@ -5,6 +5,7 @@
  *
  * @c: The variable the computer put
  * Return: 1 if uppercase, 0 else
+ *
  **/
 
 int _isupper(int c)
