@@ -14,6 +14,11 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
+	else if ((c >= (33 && 58 && 128)) || (c <= (254 && 47 && 64)))
+	{
+		return (0);
+	}
+
 	else
 	{
 		return (0);
