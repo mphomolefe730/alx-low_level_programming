@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * jack_bauer - a code that print time
  *
- *
- *
+ * @h: hour
+ * @m: minture
  *
  **/
 
