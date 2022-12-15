@@ -10,7 +10,7 @@
 
 int _islower(int c)
 {
-	if (((char)'z' >= c) || ((char)'a' <= c))
+	if (((char)'z' >= (char)c) || ((char)'a' <= (char)c))
 	{
 		return (1);
 	}
