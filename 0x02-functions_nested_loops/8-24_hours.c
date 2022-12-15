@@ -3,9 +3,6 @@
 /**
  * jack_bauer - a code that print time
  *
- * @h: hour
- * @m: minture
- *
  **/
 
 void jack_bauer(void)
