@@ -9,13 +9,12 @@
  **/
 
 int _islower(int c)
-{
-	if ('z' >= c || 'a' <= c)
-	{
-		return (1);
-	}
+{	
+	char alphabet;
+	_putchar(c) = alphabet;
 
-	else if ('a' <= c)
+	//if ('z' >= c || 'a' <= c)
+	if ('z' >= alphabet || 'a' <= alphabet)
 	{
 		return (1);
 	}
