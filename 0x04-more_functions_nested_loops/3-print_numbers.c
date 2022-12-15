@@ -2,13 +2,15 @@
 
 /**
  * print_numbers - prints numbers from 0 to 9
+ *
+ * Return: Alway 0 (Success)
  **/
 
 void print_numbers(void)
 {
-	int num = 48;
+	int num;
 
-	for (num; num < 57; num++)
+	for (num = 48; num < 57; num++)
 	{
 		_putchar(num);
 	}
