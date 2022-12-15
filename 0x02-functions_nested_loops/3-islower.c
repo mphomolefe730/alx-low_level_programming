@@ -4,17 +4,13 @@
  * _islower - function that checks for lowercase character.
  * @c: charactor being difined
  *
- * Returns: 1 if c is lowercase, return 0 otherwise
+ * Return: 1 if c is lowercase, return 0 otherwise
  *
  **/
 
 int _islower(int c)
 {
-	if (c <= (char)'z')
-	{
-		return (1);
-	}
-	else if (c >= (char)'a')
+	if (((char)'z' >= c) || ((char)'a' <= c))
 	{
 		return (1);
 	}
