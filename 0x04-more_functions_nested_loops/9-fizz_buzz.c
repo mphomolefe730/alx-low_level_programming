@@ -20,11 +20,11 @@ int main(void)
 		}
 		else if (n % 3 == 0)
 		{
-			_putchar("Fizz ");
+			_putchar(Fizz );
 		}
 		else if (n % 5 == 0)
 		{
-			_putchar("Buzz ");
+			_putchar(Buzz);
 		}
 		else
 		{
