@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print Buss each number of 3 & %
@@ -10,27 +10,27 @@ int main(void)
 	int n;
 
 	n = 1;
-	printf("%d", n);
+	_putchar(n);
 
 	for (n = 2; n <= 100; n++)
 	{
 		if ((n % 3 == 0) || (n % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			_putchar("FizzBuzz ");
 		}
 		else if (n % 3 == 0)
 		{
-			printf("Fizz ");
+			_putchar("Fizz ");
 		}
 		else if (n % 5 == 0)
 		{
-			printf("Buzz ");
+			_putchar("Buzz ");
 		}
 		else
 		{
-			print("%d ", n);
+			_putchar(n);
 		}
 	}
-	printf("\n");
+	_putchar('\n');
 	return (0);
 }
