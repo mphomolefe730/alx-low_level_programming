@@ -7,14 +7,17 @@
 
 void more_numbers(void)
 {
-	char num;
-	int round;
+	int num, round;
 
-	for (round = 48; round <= 57; round++)
+	for (round = 1; round <= 10; round++)
 	{
-		for (num = 1; num = 10; num++)
+		for (num = 0; num <= 14; num++)
 		{
-			_putchar(num);
+			if (num >= 10)
+			{
+				_putchar('1');
+				_putchar(num % 10 + '0');
+			}
 		}
 	_putchar('\n');
 	}
