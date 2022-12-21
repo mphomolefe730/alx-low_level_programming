@@ -4,19 +4,15 @@
  * _strlen - print the length of a string
  *
  * @s: the variable in question
+ * Return: number of characters
  **/
 
 int _strlen(char *s)
 {
-	char num = 1;
+	char num = 0;
 
-	for (s; s != '\0'; s--)
-	{
-	_putchar(*s);
+	for (; *s++;)
 	num++;
-	}
-	
-	int x2 = num * 2;
-	_putchar(x2);
-	_puchar('\n');
+	_putchar('\n');
+	return (num);
 }
