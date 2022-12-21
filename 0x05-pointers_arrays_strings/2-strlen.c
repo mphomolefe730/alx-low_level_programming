@@ -9,10 +9,15 @@
 
 int _strlen(char *s)
 {
-	char num = 0;
+	char num = 1;
 
-	for (; *s++;)
-	num++;
-	_putchar('\n');
-	return (num);
+	for (s; s != '\0'; s--)
+	{
+		_putchar(*s);
+		num++;
+	}
+
+	int fnum = num * 2;
+
+	return (fnum);
 }
