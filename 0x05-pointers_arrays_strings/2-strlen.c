@@ -17,7 +17,5 @@ int _strlen(char *s)
 		num++;
 	}
 
-	int fnum = num * 2;
-
-	return (fnum);
+	return (num);
 }
