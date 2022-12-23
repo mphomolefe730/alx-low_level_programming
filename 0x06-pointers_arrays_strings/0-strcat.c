@@ -10,13 +10,19 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int hsrc = 0, dest_len = 0;
+	int len = 0;
 
-	while (dest[hsrc++])
-		dest_len++;
+	while (dest[len])
+	{
+		len++;
+	}
 
-	for (hsrc = 0; src[hsrc]; hsrc++)
-	dest[dest_len++] = src[hsrc];
-
+	int replc;
+	
+	for (replc = 0; scr[replc] != '\0'; replc++)
+	{
+		dest[len] = src [replc];
+	}
 	return (dest);
 }
+
