@@ -10,22 +10,20 @@
  **/
 
 char *_strcat(char *dest, char *src)
-/**
-* {
-*	int len = 0, replc;
-*
-*	while (dest[len]) get the length of dsest
-*	{
-*		len++;
-*	}
-*
-*	for (replc = 0; src[replc] != '\0'; replc++)
-*	add the charactors of SRC to DEST
-*	{
-*		dest[len] = src[replc];
-*	}
-*
-*	dest[len] = '\0'; add special character to the end
-*	return (dest);
-* }
-**/
+{
+	int len = 0, replc;
+
+	while (dest[len]) get the length of dsest
+	{
+		len++;
+	}
+
+	for (replc = 0; src[replc] != '\0'; replc++)
+	add the charactors of SRC to DEST
+	{
+		dest[len] = src[replc];
+	}
+
+	dest[len] = '\0'; add special character to the end
+	return (dest);
+}
