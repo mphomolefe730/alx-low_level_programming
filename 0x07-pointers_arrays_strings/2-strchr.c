@@ -27,11 +27,18 @@ char *_strchr(char *s, char c)
 			/*continue;*/
 	/*}*/
 
-	for (i = 0; s != '\0'; i++)
+	/*for (i = 0; s != '\0'; i++)*/
+	/*{*/
+		/*if (s[i] == c)*/
+			/*return (i);*/
+	/*}*/
+	/*if (s[i] == '\0')*/
+		/*return (null);*/
+
+	for (i = 0; s[i] >= '\0'; i++)
 	{
 		if (s[i] == c)
-			return (i);
+			return (&s[i]);
 	}
-	if (s[i] == '\0')
-		return (null);
+	return (0);
 }
