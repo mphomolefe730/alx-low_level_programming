@@ -11,25 +11,18 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int index_1;
-	int index_2;
+	char *index_1 = haystack;
+	char *index_2 = needle;
 
-	/*add to loop and which moves to next variable*/
-	for (index_1 = 0; index_1 < strlen(haystack); index_1++)
+	for (; *haystack != '\0'; haystack++)
 	{
-		for (index_2 = 0; index_2 < strlen(needle); index_2++)
+		while (*index_1 == *index_2 && *index_2 != '\0')
 		{
-			/*if haystack [0 + n]  is not equal to needle[*], break and add to loop*/
-			if (haystack[index_1 + index_2] != needle[index_2])
-				break;
-			/*if the variable are the same, return the address of haystack*/
-			if (haystack[index_1 + index_2] == needle[index_2])
-				return (&haystack[index_1]);
-			/*if none of the variables match, return NULL*/
-			if (index_2 == strlen(needle))
-			{
-				return (0);
-			}
+			index_1++;
+			index_2++;
 		}
+		if (*index_2 == '\0')
+			return (haystack);
 	}
+	return (0);
 }
