@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <string.h>
 
 /**
@@ -14,7 +13,8 @@ int main(void)
 	char *f = "world";
 	char *t;
 
-	t = _strpbrk(s, f);
-	printf("%s/n", t);
+	*t = *_strpbrk(s, f);
+	_putchar(*t);
+	_putchar('\n');
 	return (0);
 }
