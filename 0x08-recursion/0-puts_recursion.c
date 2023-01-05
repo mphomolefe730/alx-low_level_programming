@@ -3,18 +3,22 @@
 
 /**
  * _puts_recursion - a function that prints a string
- * followed by new line
+ * using recursion, followed by new line
  * @s: the string input
  **/
 
 void _puts_recursion(char *s)
 {
-	int i;
-	int len = strlen(s);
-
-	for (i = 0; i <= len; i++)
+	/*base line*/
+	if(*s == '\0')
 	{
-		_putchar(s[i]);
+		_putchar('\n');
+		return;
 	}
-	_putchar('\n');
+	/*print character*/
+	_putchar(*s);
+	/*moved index*/
+	s++;
+	/*run program again*/
+	_puts_recursion(s);
 }
