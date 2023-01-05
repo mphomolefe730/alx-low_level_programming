@@ -10,7 +10,7 @@
 void _puts_recursion(char *s)
 {
 	int i;
-	int len = str[s];
+	int len = strlen(s);
 
 	for (i = 0; i <= len; i++)
 	{
