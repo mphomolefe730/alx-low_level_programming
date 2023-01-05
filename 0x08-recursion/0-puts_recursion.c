@@ -11,7 +11,7 @@ void _puts_recursion(char *s)
 {
 	int i;
 
-	for (i = 0; i <= strlen(s); i++)
+	for (i = 0; i <= s; i++)
 	{
 		_putchar(s[i]);
 	}
