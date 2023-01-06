@@ -9,14 +9,20 @@ void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		return;
+		/*decrease index*/
+		s--;
+		/*print the character*/
+		_putchar(*s);
+		/*if index is less than 0, return*/
+		if (s == 0)
+		{
+			return;
+		}
+		/*run program again*/
+		_print_rev_recursion(s);
 	}
 	/*add to index*/
 	s++;
 	/*run program again*/
 	_print_rev_recursion(s);
-	/* decrease index*/
-	s--;
-	/*print the character*/
-	_putchar(*s);
 }
