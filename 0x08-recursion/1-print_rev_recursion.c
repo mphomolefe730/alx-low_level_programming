@@ -14,8 +14,12 @@ void _print_rev_recursion(char *s)
 		/*print the character*/
 		_putchar(*s);
 		/*if index is less than 0, return*/
-		if (s < 0)
+		if (s == 0)
+		{
 			return;
+		}
+		/*run program again*/
+		_print_rev_recursion(s);
 	}
 	/*add to index*/
 	s++;
