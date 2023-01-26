@@ -10,21 +10,19 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int i, sum = 0, x = 0;
-
+	va_list arg;
+	/*start of listing*/
+	va_start(arg, n);
 	if (n == 0)
 		return (0);
 
-	va_list args;
+	int sum = 0, i;
 
-	va_start(args, n);
-
-	for (i = 0, i < n, i++)
-	{
-		x = va_arg(args, int);
-		sum = sum + x;
-	}
-	va_end(args);
-
+	/*goes through list of arg*/
+	for (i = 0; i < arg; i++)
+		/*added values to sum variable*/
+		sum += va_arg(arg, int);
+	/*end listing*/
+	va_end(arg);
 	return (sum);
 }
